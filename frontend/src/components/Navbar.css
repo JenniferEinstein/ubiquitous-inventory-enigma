@@ -1,0 +1,38 @@
+.container{
+    background-color: #99627A;
+}
+
+.main{
+    background-color: #E7CBCB;
+    display: flex;
+    align-items: center;
+}
+
+.main h1 {
+    margin-left: 15px;
+}
+
+.container section {
+    border-bottom: solid 1px #643843;
+}
+
+.categories-section{
+    background-color: #C88EA7;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+}
+
+/* Adding display:flex here turns the categories from listing vertically to listing horizontally. 
+Or rather, the default flex-direction is row. 
+*/
+
+.categories-section h6{
+    margin-left: 15px;
+}
+
+/* #643843
+#99627A
+#C88EA7
+#E7CBCB */
